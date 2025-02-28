@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 </head>
+
 <body>
     <h1 class="text-center text-primary my-3">Listar productos</h1>
     <div class="container d-flex align-items-center flex-column">
@@ -37,22 +38,22 @@
                 </form>
             </div>
         </div>
-        
+
         <div class="col-6 mt-5 align-middle">
-            <div class="d-flex mb-4 align-middle" >
-              <label class="form-label">Buscar por:</label>
-            <select name="" id="buscarPor" class="ms-1 form-select w-25">
-                <option value="nombre">Nombre</option>
-                <option value="precio">Precio</option>
-                <option value="descripcion">Descripcion</option>
-            </select>   
+            <div class="d-flex mb-4 align-middle">
+                <label class="form-label">Buscar por:</label>
+                <select name="" id="buscarPor" class="ms-1 form-select w-25">
+                    <option value="nombre">Nombre</option>
+                    <option value="precio">Precio</option>
+                    <option value="descripcion">Descripcion</option>
+                </select>
             </div>
-           
-          
+
+
             <input type="text" class="form-control" id="inputBuscador">
-            
+
         </div>
-        
+
         <div class="col-8">
             <table class="table my-5">
                 <thead>
@@ -60,7 +61,7 @@
                         <th>#</th>
                         <th>Nombre del producto</th>
                         <th>Precio</th>
-                        <th >Descripcion</th>
+                        <th>Descripcion</th>
                         <th>Imagen</th>
                         <th>Acciones</th>
                     </tr>
